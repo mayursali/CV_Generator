@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+        {% csrf_token %}
+        Name: <input type="text" name="name" id="name"> <br> <br>
+        Email: <input type="text" name="email" id="email"> <br> <br>
+        Phone: <input type="text" name="phone" id="phone"> <br><br>
+        Summary: <textarea name="summary" id="summary" cols="30" rows="10"></textarea> <br> <br>
+        Degree: <input type="text" name="degree", id="degree"> <br> <br>
+        School: <input type="text" name="school", id="school"> <br> <br>
+        University: <input type="text" name="university" , id="university"> <br> <br>
+        Experience <textarea name="experience" id="experience" cols="30" rows="10"></textarea> <br> <br>
+        skills <textarea name="skills" id="skills" cols="30" rows="10"></textarea> <br> <br>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>
